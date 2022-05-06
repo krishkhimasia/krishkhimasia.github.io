@@ -1,0 +1,230 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(13 0 24);
+    color: white;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+/* NavBar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    justify-content: right;
+    color:white;
+    /* border: 2px solid white; */
+}
+
+#navbar::before{
+    content: "";
+    /* background-color: rgb(108, 24, 185); */
+    background-color: rgb(44 12 72);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+ 
+.left{
+    position: absolute;
+    left: 30px;
+    font-size: 3rem;
+    font-family: 'Square Peg', cursive;
+    color:#20d9d9;
+}
+
+.nav{
+    display: flex;
+    font-size: 1.4rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+}
+
+#nav li{
+    list-style: none;
+}
+
+#nav li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+#nav li a:hover{
+    background-color: rgb(13 0 24);;
+    color: #20d9d9;
+    /* background-color: white; */
+}
+
+/* Typing Animation for Welcome (want to add later)*/
+
+
+/* Home */
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 150px 400px;
+    height: 415px; */
+    /* padding: 270px 400px;
+    height: 190px; */
+    padding: 0px 0px;
+    height: 92vh;
+    /* border: 2px solid white; */
+}
+
+#home::before{
+    content: "";
+    background: url(../img/home.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 92vh;
+    left: 0px;
+    top: 63px;
+    z-index: -101;
+}
+
+/* About */
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 348px; */
+    padding: 0px 260px;
+    /* height: 715px; */
+    height: 92vh;
+    /* border: 2px solid white; */
+}
+
+#about a{
+    color: white;
+}
+
+#about a:hover{
+    color: #20d9d9;
+}
+
+/* Projects */
+#projects{
+    /* padding: 150px 400px;
+    height: 415px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 260px 400px; */
+    padding: 0px 340px;
+    height: 92vh;
+    /* border: 2px solid white; */
+}
+
+#projects a{
+    color: white;
+    text-decoration: none;
+}
+
+#projects a:hover{
+    color: #20d9d9;
+}
+
+#projects .box{
+    text-align: center;
+}
+
+#projects img{
+    height:90px;
+}
+
+/* Posts */
+
+
+/* Connect */
+#connect{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 160px;
+    height: 89vh;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    align-items: center;
+}
+
+#connect p{
+    padding: 10px 0px;
+}
+
+#connect ul{
+    padding: 70px 0px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#connect ul li{
+    list-style: none;
+}
+
+#connect ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#connect ul li a:hover{
+    color: #20d9d9;
+}
+
+/* Footer */
+
+footer{
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color:#20d9d9;
+}
+
+/* Utility Classes */
+.center{
+    text-align: center;
+}
+
+.info{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+}
+
+.h-primary{
+    font-size: 3rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+}
+
+.h-secondary{
+    font-size: 2.2rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+}
+
+.break{
+    height: 8vh;
+}

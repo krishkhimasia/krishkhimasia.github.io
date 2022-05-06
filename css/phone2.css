@@ -1,0 +1,32 @@
+/* #navbar{
+    flex-direction: row;
+}
+
+#navbar .left{
+    font-size: 2rem;
+}
+
+#navbar ul{
+    display: block;
+} */
+
+#menu{
+    position: absolute;
+    left: 0px;
+}
+
+#home{
+    height: 85vh;
+}
+
+#about{
+    height: 93vh;
+}
+
+#projects{
+    height: 93vh;
+}
+
+#connect{
+    height: 93vh;
+}

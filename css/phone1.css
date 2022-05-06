@@ -1,0 +1,109 @@
+/* need to make hamburger menu, make everything responsive */
+
+/* #navbar{
+    flex-direction: column;
+}
+
+#navbar .left{
+    position: sticky;
+} */
+
+/* #menu and .bar and rest are for hamburger, might remove if dosnt work */
+
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: 30px 15px 20px 20px;
+    /* margin: 20px 15px 13px 20px; */
+    cursor: pointer;
+    z-index: 100;
+}
+
+.bar{
+    height:5px;
+    width:100%;
+    background-color: #20d9d9;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+
+.nav{
+    padding: 0;
+    margin: 0 20px;
+    transition: 1s ease;
+    display: none;
+}
+
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3{
+    transform: translateY(4px);
+}
+
+.icon .bar{
+    
+}
+
+.icon #bar1{
+    transform: translateY(4px) rotate(-45deg);
+}
+
+.icon #bar3{
+    transform: translateY(-6px) rotate(45deg);
+}
+
+.icon #bar2{
+    opacity: 0;
+}
+
+.change{
+    background-color: rgb(44 12 72);
+    height: 260%;
+    margin: 0;
+    position: absolute;
+    font-size: 30px;
+    /* top:10vh; */
+    left: 0px;
+    z-index: -100;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.change a{
+    width: 100vw;
+    text-align: center;
+}
+
+#nav li a{
+    padding: 10px 20px;
+}
+
+#home::before{
+    top: 80px;
+}
+
+#about{
+    padding: 0px 13px;
+    /* height: 93vh; */
+}
+
+#projects{
+    padding: 0px 13px;
+    /* height: 93vh; */
+}
+
+#connect{
+    padding: 0px 10px;
+}
+
+#projects{
+    padding: 0px 0px;
+}
