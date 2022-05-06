@@ -10,11 +10,6 @@
     display: block;
 } */
 
-#menu{
-    position: absolute;
-    left: 0px;
-}
-
 #home{
     height: 85vh;
 }
