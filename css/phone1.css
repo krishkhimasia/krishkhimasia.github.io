@@ -84,6 +84,7 @@
 
 #nav li a{
     padding: 10px 0px;
+    width: 100%;
 }
 
 #home::before{
