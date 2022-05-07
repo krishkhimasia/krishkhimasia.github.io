@@ -55,6 +55,7 @@ p{
 
 #nav li{
     list-style: none;
+    width: 100%;
 }
 
 #nav li a{
@@ -62,6 +63,7 @@ p{
     display: block;
     text-decoration: none;
     padding: 20px 20px;
+    width: 100%;
 }
 
 #nav li a:hover{

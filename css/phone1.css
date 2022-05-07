@@ -70,7 +70,7 @@
     /* top:10vh; */
     left: 0px;
     z-index: -100;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,7 +83,7 @@
 }
 
 #nav li a{
-    padding: 10px 20px;
+    padding: 10px 0px;
 }
 
 #home::before{
