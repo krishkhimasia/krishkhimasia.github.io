@@ -173,9 +173,10 @@ p{
 }
 
 #connect ul{
-    padding: 70px 0px;
+    padding: 10px 0px;
     font-size: 2rem;
     text-align: center;
+    display: flex;
 }
 
 #connect ul li{
@@ -185,6 +186,7 @@ p{
 #connect ul li a{
     color: white;
     text-decoration: none;
+    padding: 0px 10px;
 }
 
 #connect ul li a:hover{
