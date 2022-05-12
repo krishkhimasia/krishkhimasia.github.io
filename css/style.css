@@ -25,6 +25,7 @@ p{
     top: 0px;
     justify-content: right;
     color:white;
+    z-index: 10;
     /* border: 2px solid white; */
 }
 
