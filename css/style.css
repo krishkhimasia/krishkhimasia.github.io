@@ -173,6 +173,16 @@ p{
     padding: 10px 0px;
 }
 
+#connect p a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+#connect p a:hover{
+    color: #20d9d9;
+}
+
 #connect ul{
     padding: 10px 0px;
     font-size: 2rem;
@@ -182,6 +192,7 @@ p{
 
 #connect ul li{
     list-style: none;
+    padding: 10px 5px;
 }
 
 #connect ul li a{
@@ -192,6 +203,10 @@ p{
 
 #connect ul li a:hover{
     color: #20d9d9;
+}
+
+.mail{
+    padding: 20px 0px;
 }
 
 /* Footer */
