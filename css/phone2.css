@@ -22,6 +22,11 @@
     min-height: 93vh;
 }
 
+#projects .prev{    /* for previews of my webdev projects */
+    height: 16vh;
+    padding: 2vh;
+}
+
 #connect{
     min-height: 93vh;
 }
