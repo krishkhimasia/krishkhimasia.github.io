@@ -154,6 +154,16 @@ p{
     height:90px;
 }
 
+#projects .prev{    /* for previews of my webdev projects */
+    height: 78vh;
+    padding: 2vh;
+}
+
+#projects .project{
+    padding: 100px 0px;
+    box-shadow: 2px rgb(30 3 52);
+}
+
 /* Posts */
 
 
