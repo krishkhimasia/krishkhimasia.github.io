@@ -11,17 +11,17 @@
 } */
 
 #home{
-    height: 85vh;
+    min-height: 85vh;
 }
 
 #about{
-    height: 93vh;
+    min-height: 93vh;
 }
 
 #projects{
-    height: 93vh;
+    min-height: 93vh;
 }
 
 #connect{
-    height: 93vh;
+    min-height: 93vh;
 }
